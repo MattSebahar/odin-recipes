@@ -1,25 +1,30 @@
-h1,
-p,
-#recipes{
+h1 {
     font-size: 28px;
     font-weight: bold;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-align: center;
 }
 
-.description {
-    font-size: 18px;
-    font-weight: normal;
+p.description {
+    margin: 0px 10px;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: left;
+    width: 50vw;
 }
 
-#recipes{
-color:orange;
-text-align: left
+.list {
+    color: orange;
+    text-align: left
 }
 
-.picture{
-    margin:auto 5px;
-    float:right;   
-    width:auto;
-    height:400px;
+.picture {
+    float: right;
+    display: inline;
+    width: 35vw;
+    height: auto;
+}
+h2{
+    text-align: center;
 }
